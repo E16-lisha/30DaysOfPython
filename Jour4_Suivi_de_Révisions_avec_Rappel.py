@@ -5,7 +5,7 @@ Auteur : Elisée N'TSOUKOU
 Date :  25/07/2025
 Version : 1.0
 Communauté : PyCon Togo ( 30 Days Pycon)
-Dernière Mise à jour :
+Dernière Mise à jour : 26/07/2025
 '''
 import time
 from datetime import datetime
@@ -27,7 +27,7 @@ print("----------C'est Parti !-------------")
 matieres = []
 matiere = {}
 print("")
-print("------------------------------------------------------------------------------")
+print("+"*70)
 nbr = int(input("combien de matières voulez-vous programmer ? : " ))
 for i in range(nbr) :
     print("")
