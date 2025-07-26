@@ -3,9 +3,9 @@ Nom du fichier : Jour3_Stimulateur_de_temps_de_téléchargement.py
 Projet : L'utilisateur renseigne des données on le programme retoure une durée
 Auteur : Elisée N'TSOUKOU
 Date :  24/07/2025
-Version : 1.0
+Version : 1.1
 Communauté : PyCon Togo ( 30 Days Pycon)
-Dernière Mise à jour :
+Dernière Mise à jour : 26/07/2025
 '''
 print("------------STIMULATUER DE TEMPS DE TELECHARGEMENT--------------")
 print("")
@@ -17,10 +17,10 @@ while Taille < 0 :
     Taille = int(input("Entrez la taille de votre fichier en Ko (Ex: 1024 ) : "))
 
 print("")
-Vitesse = int(input("Entrez la vitesse de votre connexion en Ko (Ex: 5 ) ) : "))
+Vitesse = int(input("Entrez la vitesse de votre connexion en Mo/s (Ex: 5 ) ) : "))
 while Vitesse < 0 :
     print ("Valeur saisie incorrecte. Veuillez entrer une valeur Positive")
-    Taille = int(input("Entrez la vitesse de votre connexion en Ko (Ex: 5 ) : "))
+    Taille = int(input("Entrez la vitesse de votre connexion en Mo/s (Ex: 5 ) : "))
 
 Temps = Taille/(Vitesse*1000)
 Min = 0
