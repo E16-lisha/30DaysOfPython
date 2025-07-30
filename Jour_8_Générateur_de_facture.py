@@ -3,7 +3,7 @@ Nom du fichier : Jour_8_Générateur_de_facture.py
 Projet : Générateur de Facture
 Objectif : Se familiariser avec les dictionnaires
 Auteur : Elisée N'TSOUKOU
-Date : 29/07/2025
+Date : 30/07/2025
 Version : 1.0
 Communauté : PyCon Togo (30 Days PyCon)
 Dernière Mise à jour :
