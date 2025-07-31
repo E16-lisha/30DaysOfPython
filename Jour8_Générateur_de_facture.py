@@ -1,5 +1,5 @@
 '''
-Nom du fichier : Jour_8_Générateur_de_facture.py
+Nom du fichier : Jour8_Générateur_de_facture.py
 Projet : Générateur de Facture
 Objectif : Se familiariser avec les dictionnaires
 Auteur : Elisée N'TSOUKOU
