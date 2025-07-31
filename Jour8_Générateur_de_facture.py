@@ -4,9 +4,9 @@ Projet : Générateur de Facture
 Objectif : Se familiariser avec les dictionnaires
 Auteur : Elisée N'TSOUKOU
 Date : 30/07/2025
-Version : 1.0
+Version : 1.1
 Communauté : PyCon Togo (30 Days PyCon)
-Dernière Mise à jour :
+Dernière Mise à jour : 31/07/2025
 '''
 from sys import prefix
 
@@ -60,8 +60,7 @@ for cpt in range(qte) :
     article["Prix_total"]= prix_total
     Articles.append(article)
 
-facture(Entrepise,Mail,Facture,Date,Nom,AdresseClient,qte,Articles)
-
+#Partie générée pae iA
 # Création du PDF
 pdf = FPDF()
 pdf.add_page()
