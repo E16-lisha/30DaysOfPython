@@ -60,7 +60,7 @@ for cpt in range(qte) :
     article["Prix_total"]= prix_total
     Articles.append(article)
 
-#Partie générée pae iA
+#Partie générée par iA
 # Création du PDF
 pdf = FPDF()
 pdf.add_page()
