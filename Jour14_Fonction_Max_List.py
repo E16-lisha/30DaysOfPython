@@ -22,4 +22,9 @@ def max_liste(liste) :
 print("Salut ! Heureux de vous retrouver...")
 print("Le travail d'aujourd'hui ressemble un peu à celui fait hier. Nous allons juste rechercher le maximun d'une liste.")
 taille = int(input("Combien d’éléments voulez-vous dans votre liste ? : "))
+liste = []
+for i in range(taille) :
+    elem = int(input(f"Entrez la valeur N"{i+1}))
+    liste.append(elem)
+
 max_liste(taille)
