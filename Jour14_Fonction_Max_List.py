@@ -3,7 +3,7 @@ Nom du fichier : Jour14_Fonction_Max_List.py
 Projet : Une fonction qui retourne l'elément maximal d'une liste
 Objectif : Appliquer les fonctions
 Auteur : Elisée N'TSOUKOU
-Date : 04/08/2025
+Date : 05/08/2025
 Version : 1.0
 Communauté : PyCon Togo (30 Days PyCon)
 Dernière Mise à jour :
