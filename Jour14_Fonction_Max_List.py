@@ -19,6 +19,7 @@ def max_liste(liste) :
     return max_element
 
 #Programme principal
+print("="*80)
 print("Salut ! Heureux de vous retrouver...")
 print("")
 print("Le travail d'aujourd'hui ressemble un peu à celui fait hier. Nous allons juste rechercher le maximun d'une liste.")
