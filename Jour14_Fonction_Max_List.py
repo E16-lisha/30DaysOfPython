@@ -13,9 +13,9 @@ def max_liste(liste) :
     if not liste :
         return None
     max_element = liste[0]
-    for element in liste :
-        if element > max_element :
-            max_element = element
+    for cpt in liste :
+        if cpt > max_element :
+            max_element = cpt
     return max_element
 
 #Programme principal
