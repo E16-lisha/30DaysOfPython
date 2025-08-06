@@ -21,6 +21,7 @@ def max_liste(liste) :
 #Programme principal
 print("="*80)
 print("Salut ! Heureux de vous retrouver...")
+print("="*80)
 print("")
 print("Le travail d'aujourd'hui ressemble un peu à celui fait hier. Nous allons juste rechercher le maximun d'une liste.")
 taille = int(input("Combien d’éléments voulez-vous dans votre liste ? : "))
