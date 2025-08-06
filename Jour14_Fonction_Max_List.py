@@ -27,6 +27,6 @@ print("Le travail d'aujourd'hui ressemble un peu à celui fait hier. Nous allons
 taille = int(input("Combien d’éléments voulez-vous dans votre liste ? : "))
 liste = []
 for i in range(taille) :
-    elem = int(input(f"Entrez la valeur N° {i+1} : "))
-    liste.append(elem)
+    elements = int(input(f"Entrez la valeur N° {i+1} : "))
+    liste.append(elements)
 print(f"L'élément maximal de votre liste est : {max_liste(liste)}")
