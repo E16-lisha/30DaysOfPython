@@ -26,5 +26,4 @@ liste = []
 for i in range(taille) :
     elem = int(input(f"Entrez la valeur N° {i+1} : "))
     liste.append(elem)
-
-max_liste(liste)
+print(f"L'élément maximal de votre liste est : {max_liste(liste)}")
