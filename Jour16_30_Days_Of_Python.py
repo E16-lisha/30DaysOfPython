@@ -121,10 +121,10 @@ for i in range(nb_notes) :
         print("Réessayez avec une note positive !")
     notes.append(note)
 #Calcul de la Moyenne des notes
-print(f"{len(notes)}. La moyenne est égale à {calculer_moyenne(notes)}")
+print(f"La moyenne est égale à {calculer_moyenne(notes)}")
 print("")
 #Détermination des extrema
-print(f"Les notes min et max de votre liste sont {trouver_extremes(notes)}")
+print(f"Les notes min et max de votre liste sont {trouver_extremes(notes):.2f}")
 #Classement en fontion des moyennes
 print(f"Nous allons vous montrer les classements et mentions : {compter_mentions(notes)}")
 #Affichage des moyennes supérieurs au seuil
