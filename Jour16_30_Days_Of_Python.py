@@ -110,7 +110,6 @@ while True :
             nb_notes = int(input("Combien d'élèves woulez vous classer ? : "))
     except ValueError :
         print("Réessayez avec un entier positif non nul !")
-        nb_notes = int(input("Combien de notes voulez vous entrer ? : "))
 # Remplissage de la liste des notes
 for i in range(nb_notes) :
     try :
@@ -120,7 +119,6 @@ for i in range(nb_notes) :
             note = float(input(f"Entrez la {i+1}e note : "))
     except ValueError:
         print("Réessayez avec une note positive !")
-        note = float(input(f"Entrez la {i + 1}e note : "))
     notes.append(note)
 #Calcul de la Moyenne des notes
 print(f"{len(notes)}. La moyenne est égale à {calculer_moyenne(notes)}")
