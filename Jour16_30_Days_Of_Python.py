@@ -15,7 +15,6 @@ def calculer_moyenne(notes):
     moyenne = 0
     for i in notes :
         somme=somme+i
-        print(f"i = {i} et somme = {somme}")
     try :
         moyenne = somme/len(notes)
     except ZeroDivisionError :
@@ -122,7 +121,7 @@ for i in range(nb_notes) :
     except ValueError:
         print("Réessayez avec une note positive !")
         note = float(input(f"Entrez la {i + 1}e note : "))
-    notes.append(i)
+    notes.append(note)
 #Calcul de la Moyenne des notes
 print(f"{len(notes)}. La moyenne est égale à {calculer_moyenne(notes)}")
 print("")
