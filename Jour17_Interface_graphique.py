@@ -13,6 +13,5 @@ window = Tk()
 window.title("WSINDE Pressing")
 window.config(background='#005490')
 window.iconbitmap("logo.ico")
-print("Hello World")
 window.mainloop()
 
