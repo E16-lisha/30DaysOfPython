@@ -67,7 +67,7 @@ def notes_triees_avec_rang(notes):
     classements = []
     cpt = 0
     for element in tri :
-        ctp = cpt + 1
+        cpt = cpt + 1
         classement = (element,cpt)
         classements.append(classement)
     return classements
@@ -132,7 +132,7 @@ print(f"Les notes min et max de votre liste sont {trouver_extremes(notes)}")
 print("#"*40)
 #Classement en fontion des moyennes
 print("Classement en fontion des moyennes")
-print("Le classement est un couple (mention, rang)")
+print("Le classement est une liste avec [nombre des echecs, de passable, des Abien, et tres bien].)")
 print(compter_mentions(notes))
 print("#"*40)
 #Affichage des moyennes supérieurs au seuil
@@ -146,10 +146,10 @@ except ValueError:
     print("Réessayez avec une note positive !")
     seuil = float(input(f"Entrez le seuil des notes : "))
 print("")
-print("Voici une liste des notes supérieures au seuil : ",filtrer_notes_superieures(notes, seuil))
+print("Voici une liste des notes supérieures au seuil (classés du plus grand au plus petit) : ",filtrer_notes_superieures(notes, seuil))
 print("#"*40)
 #Classement dans l'ordre décroissant :
-print("Tri dans l'ordre décroissant des rangs")
+print("Tri dans l'ordre décroissant des rangs classé dans l'ordre suivant : (moyenne, rang)")
 print(notes_triees_avec_rang(notes))
 print(" ")
 print("Strastistiques générales : ", statistiques_completes(notes))
