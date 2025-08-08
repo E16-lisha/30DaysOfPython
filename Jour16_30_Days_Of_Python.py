@@ -120,14 +120,23 @@ for i in range(nb_notes) :
     except ValueError:
         print("Réessayez avec une note positive !")
     notes.append(note)
+print("#"*40)
 #Calcul de la Moyenne des notes
-print(f"La moyenne est égale à {calculer_moyenne(notes)}")
-print("")
+print("Calcul de la Moyenne des notes")
+print(f"La moyenne est égale à {calculer_moyenne(notes):.2f}")
+print("#"*40)
 #Détermination des extrema
-print(f"Les notes min et max de votre liste sont {trouver_extremes(notes):.2f}")
+print("Détermination des extrema")
+print("="*40)
+print(f"Les notes min et max de votre liste sont {trouver_extremes(notes)}")
+print("#"*40)
 #Classement en fontion des moyennes
-print(f"Nous allons vous montrer les classements et mentions : {compter_mentions(notes)}")
+print("Classement en fontion des moyennes")
+print("Le classement est un couple (mention, rang)")
+print(compter_mentions(notes))
+print("#"*40)
 #Affichage des moyennes supérieurs au seuil
+print("Affichage des moyennes supérieurs au seuil")
 try:
     seuil = float(input(f"Entrez le seuil des notes : "))
     while note < 0:
@@ -136,7 +145,9 @@ try:
 except ValueError:
     print("Réessayez avec une note positive !")
     seuil = float(input(f"Entrez le seuil des notes : "))
+print("")
 print("Voici une liste des notes supérieures au seuil : ",filtrer_notes_superieures(notes, seuil))
+print("#"*40)
 #Classement dans l'ordre décroissant :
 print("Tri dans l'ordre décroissant des rangs")
 print(notes_triees_avec_rang(notes))
