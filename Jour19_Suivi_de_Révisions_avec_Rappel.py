@@ -1,11 +1,11 @@
 ''''
 Nom du fichier : Jour19_Suivi_de_Révisions_avec_Rappel.py
-Projet : 
+Projet : Suivi de révisions avec rappels - Interface Tkinter
 Objectif : L'utilisateur renseigne des matières et et l'heure de revision le programme lui fait un rappel
 Auteur : Elisée N'TSOUKOU
 Date :  25/07/2025
 Version : 3.1
-Communauté : PyCon Togo ( 30 Days Pycon)
+Communauté : PyCon Togo ( 30 Days of Python)
 Dernière Mise à jour : 10/08/2025
 '''
 import tkinter as tk
