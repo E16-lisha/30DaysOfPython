@@ -1,9 +1,7 @@
 """
-Nom du fichier : Jour21_Calcul_IMC_GUI.py
+Nom du fichier : Jour20_Calcul_IMC_GUI.py
 Projet : Calculateur d'IMC avec recommandations - Interface Tkinter
-Objectif : L'utilisateur renseigne des matières et et l'heure de revision le programme lui fait un rappel
-
-
+Objectif : L'utilisateur renseigne sa taille et son poids et le programme lui donne son IMC et quelques recommendations
 Auteur : Elisée N'TSOUKOU
 Date :  26/07/2025
 Version : 2.0
