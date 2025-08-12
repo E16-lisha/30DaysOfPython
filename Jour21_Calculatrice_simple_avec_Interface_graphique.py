@@ -1,7 +1,7 @@
 
 """
 Nom du fichier : Jour21_Calculatrice_simple_avec_Interface_graphique.py.py
-Projet : Calculatrice qui éffectue une somme et un produit
+Projet : Calculatrice qui effectue une somme et un produit
 Objectif : L'utilisateur entre deux valeurs et le programme affiche la somme et le produit de ces deux nombres.
 Auteur : Elisée N'TSOUKOU
 Date :  12/08/2025
