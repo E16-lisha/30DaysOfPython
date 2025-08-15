@@ -3,9 +3,10 @@ Nom du fichier : Jour24_Convertisseur_Temperature.py
 Projet : Convertisseur Celsius ↔ Fahrenheit
 Objectif : Utiliser les fonctions et conditions
 Auteur : Elisée N'TSOUKOU
-Date : 24/08/2025
+Date : 15/08/2025
 Version : 1.0
-Communauté : PyCon Togo (30 Days PyCon)
+Communauté : PyCon Togo (30 Days Python)
+Dernière Mise à jour :
 '''
 
 def celsius_vers_fahrenheit(c):
