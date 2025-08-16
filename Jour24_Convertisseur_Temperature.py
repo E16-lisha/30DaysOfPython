@@ -1,7 +1,7 @@
 '''
 Nom du fichier : Jour24_Convertisseur_Temperature.py
 Projet : Convertisseur Celsius ↔ Fahrenheit
-Objectif : Utiliser les fonctions et conditions
+Objectif : Utiliser les fonctions et conditions.
 Auteur : Elisée N'TSOUKOU
 Date : 15/08/2025
 Version : 1.0
